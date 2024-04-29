@@ -1,12 +1,12 @@
 {
-    "name": "php-lsp/protocol-generator",
-    "description": "Language Service Protocol Data Types Generator",
+    "name": "php-lsp/protocol",
+    "description": "Language Service Protocol Data Types",
     "type": "library",
     "license": "MIT",
-    "keywords": ["rpc", "standard", "protocol", "dto", "types", "json", "php", "lsp", "generator"],
+    "keywords": ["rpc", "standard", "protocol", "dto", "types", "json", "php", "lsp"],
     "support": {
-        "source": "https://github.com/php-lsp/protocol-generator",
-        "issues": "https://github.com/php-lsp/protocol-generator/issues"
+        "source": "https://github.com/php-lsp/protocol",
+        "issues": "https://github.com/php-lsp/protocol/issues"
     },
     "authors": [
         {
@@ -20,18 +20,17 @@
     },
     "autoload": {
         "psr-4": {
-            "Lsp\\Protocol\\Generator\\": "src"
+            "Lsp\\Protocol\\": "src"
         }
     },
     "require-dev": {
         "phpunit/phpunit": "^10.5|^11.0",
-        "php-lsp/hydrator-jms": "^1.0",
         "symfony/cache": "^6.4|^7.0",
         "symfony/finder": "^6.4|^7.0"
     },
     "autoload-dev": {
         "psr-4": {
-            "Lsp\\Protocol\\Generator\\Tests\\": "tests"
+            "Lsp\\Protocol\\Tests\\": "tests"
         }
     },
     "scripts": {
