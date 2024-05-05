@@ -12,7 +12,6 @@ class SignatureHelpOptions
     use SignatureHelpOptionsMixin;
 
     /**
-     * @generated
      * @param list<string> $triggerCharacters
      * @param list<string> $retriggerCharacters
      */

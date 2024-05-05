@@ -11,9 +11,6 @@ class SaveOptions
 {
     use SaveOptionsMixin;
 
-    /**
-     * @generated
-     */
     public function __construct(bool $includeText)
     {
         $this->includeText = $includeText;

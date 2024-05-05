@@ -12,7 +12,6 @@ final class DeleteFile
     use ResourceOperationMixin;
 
     /**
-     * @generated
      * @param non-empty-string $uri
      */
     final public function __construct(

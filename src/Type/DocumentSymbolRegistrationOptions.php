@@ -14,7 +14,6 @@ final class DocumentSymbolRegistrationOptions
     use DocumentSymbolOptionsMixin;
 
     /**
-     * @generated
      * @param list<object|NotebookCellTextDocumentFilter>|null $documentSelector
      */
     final public function __construct(array|null $documentSelector, string $label, bool $workDoneProgress)

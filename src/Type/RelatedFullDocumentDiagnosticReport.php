@@ -13,8 +13,6 @@ final class RelatedFullDocumentDiagnosticReport
     use FullDocumentDiagnosticReportMixin;
 
     /**
-     * @generated
-     * @since 3.17.0
      * @param array<non-empty-string, FullDocumentDiagnosticReport|UnchangedDocumentDiagnosticReport> $relatedDocuments
      * @param list<Diagnostic> $items
      */

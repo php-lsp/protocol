@@ -11,9 +11,6 @@ class DocumentLinkOptions
 {
     use DocumentLinkOptionsMixin;
 
-    /**
-     * @generated
-     */
     public function __construct(bool $resolveProvider, bool $workDoneProgress)
     {
         $this->resolveProvider = $resolveProvider;

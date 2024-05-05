@@ -12,10 +12,6 @@ class DiagnosticOptions
 {
     use DiagnosticOptionsMixin;
 
-    /**
-     * @generated
-     * @since 3.17.0
-     */
     public function __construct(
         string $identifier,
         bool $interFileDependencies,

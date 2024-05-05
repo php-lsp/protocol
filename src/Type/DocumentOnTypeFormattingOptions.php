@@ -12,7 +12,6 @@ class DocumentOnTypeFormattingOptions
     use DocumentOnTypeFormattingOptionsMixin;
 
     /**
-     * @generated
      * @param list<string> $moreTriggerCharacter
      */
     public function __construct(string $firstTriggerCharacter, array $moreTriggerCharacter)

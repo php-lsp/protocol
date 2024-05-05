@@ -11,9 +11,6 @@ class DocumentRangeFormattingOptions
 {
     use DocumentRangeFormattingOptionsMixin;
 
-    /**
-     * @generated
-     */
     public function __construct(bool $rangesSupport, bool $workDoneProgress)
     {
         $this->rangesSupport = $rangesSupport;

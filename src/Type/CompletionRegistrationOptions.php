@@ -14,7 +14,6 @@ final class CompletionRegistrationOptions
     use CompletionOptionsMixin;
 
     /**
-     * @generated
      * @param list<object|NotebookCellTextDocumentFilter>|null $documentSelector
      * @param list<string> $triggerCharacters
      * @param list<string> $allCommitCharacters
@@ -24,7 +23,7 @@ final class CompletionRegistrationOptions
         array $triggerCharacters,
         array $allCommitCharacters,
         bool $resolveProvider,
-        object $completionItem,
+        CompletionOptionsCompletionItem $completionItem,
         bool $workDoneProgress,
     ) {
         $this->documentSelector = $documentSelector;

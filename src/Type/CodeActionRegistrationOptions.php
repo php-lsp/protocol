@@ -14,7 +14,6 @@ final class CodeActionRegistrationOptions
     use CodeActionOptionsMixin;
 
     /**
-     * @generated
      * @param list<object|NotebookCellTextDocumentFilter>|null $documentSelector
      * @param list<CodeActionKind> $codeActionKinds
      */

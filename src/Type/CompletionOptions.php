@@ -12,7 +12,6 @@ class CompletionOptions
     use CompletionOptionsMixin;
 
     /**
-     * @generated
      * @param list<string> $triggerCharacters
      * @param list<string> $allCommitCharacters
      */
@@ -20,7 +19,7 @@ class CompletionOptions
         array $triggerCharacters,
         array $allCommitCharacters,
         bool $resolveProvider,
-        object $completionItem,
+        CompletionOptionsCompletionItem $completionItem,
         bool $workDoneProgress,
     ) {
         $this->triggerCharacters = $triggerCharacters;

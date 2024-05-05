@@ -11,9 +11,6 @@ class RenameOptions
 {
     use RenameOptionsMixin;
 
-    /**
-     * @generated
-     */
     public function __construct(bool $prepareProvider, bool $workDoneProgress)
     {
         $this->prepareProvider = $prepareProvider;

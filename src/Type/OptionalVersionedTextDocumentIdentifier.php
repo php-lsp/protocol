@@ -12,7 +12,6 @@ final class OptionalVersionedTextDocumentIdentifier
     use TextDocumentIdentifierMixin;
 
     /**
-     * @generated
      * @param int<-2147483648, 2147483647>|null $version
      * @param non-empty-string $uri
      */

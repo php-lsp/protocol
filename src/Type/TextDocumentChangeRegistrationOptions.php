@@ -12,7 +12,6 @@ final class TextDocumentChangeRegistrationOptions
     use TextDocumentRegistrationOptionsMixin;
 
     /**
-     * @generated
      * @param list<object|NotebookCellTextDocumentFilter>|null $documentSelector
      */
     final public function __construct(

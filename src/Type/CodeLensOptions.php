@@ -11,9 +11,6 @@ class CodeLensOptions
 {
     use CodeLensOptionsMixin;
 
-    /**
-     * @generated
-     */
     public function __construct(bool $resolveProvider, bool $workDoneProgress)
     {
         $this->resolveProvider = $resolveProvider;

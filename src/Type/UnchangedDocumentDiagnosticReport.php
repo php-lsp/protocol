@@ -13,10 +13,6 @@ class UnchangedDocumentDiagnosticReport
 {
     use UnchangedDocumentDiagnosticReportMixin;
 
-    /**
-     * @generated
-     * @since 3.17.0
-     */
     public function __construct(string $kind, string $resultId)
     {
         $this->kind = $kind;

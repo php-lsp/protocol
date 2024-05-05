@@ -12,7 +12,6 @@ class BaseSymbolInformation
     use BaseSymbolInformationMixin;
 
     /**
-     * @generated
      * @param list<SymbolTag> $tags
      */
     public function __construct(

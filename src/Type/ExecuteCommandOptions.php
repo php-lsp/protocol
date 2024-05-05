@@ -12,7 +12,6 @@ class ExecuteCommandOptions
     use ExecuteCommandOptionsMixin;
 
     /**
-     * @generated
      * @param list<string> $commands
      */
     public function __construct(array $commands, bool $workDoneProgress)

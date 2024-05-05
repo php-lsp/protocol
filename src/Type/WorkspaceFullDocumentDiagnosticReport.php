@@ -13,8 +13,6 @@ final class WorkspaceFullDocumentDiagnosticReport
     use FullDocumentDiagnosticReportMixin;
 
     /**
-     * @generated
-     * @since 3.17.0
      * @param non-empty-string $uri
      * @param int<-2147483648, 2147483647>|null $version
      * @param list<Diagnostic> $items

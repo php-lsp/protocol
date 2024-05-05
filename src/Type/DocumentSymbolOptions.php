@@ -11,9 +11,6 @@ class DocumentSymbolOptions
 {
     use DocumentSymbolOptionsMixin;
 
-    /**
-     * @generated
-     */
     public function __construct(string $label, bool $workDoneProgress)
     {
         $this->label = $label;

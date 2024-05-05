@@ -13,8 +13,6 @@ class FullDocumentDiagnosticReport
     use FullDocumentDiagnosticReportMixin;
 
     /**
-     * @generated
-     * @since 3.17.0
      * @param list<Diagnostic> $items
      */
     public function __construct(string $kind, string $resultId, array $items)

@@ -12,7 +12,6 @@ class CodeActionOptions
     use CodeActionOptionsMixin;
 
     /**
-     * @generated
      * @param list<CodeActionKind> $codeActionKinds
      */
     public function __construct(array $codeActionKinds, bool $resolveProvider, bool $workDoneProgress)

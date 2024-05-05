@@ -11,9 +11,6 @@ class ReferenceOptions
 {
     use ReferenceOptionsMixin;
 
-    /**
-     * @generated
-     */
     public function __construct(bool $workDoneProgress)
     {
         $this->workDoneProgress = $workDoneProgress;

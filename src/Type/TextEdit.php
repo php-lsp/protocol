@@ -11,9 +11,6 @@ class TextEdit
 {
     use TextEditMixin;
 
-    /**
-     * @generated
-     */
     public function __construct(Range $range, string $newText)
     {
         $this->range = $range;

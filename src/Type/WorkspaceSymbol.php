@@ -15,12 +15,10 @@ final class WorkspaceSymbol
     use BaseSymbolInformationMixin;
 
     /**
-     * @generated
-     * @since 3.17.0
      * @param list<SymbolTag> $tags
      */
     final public function __construct(
-        public readonly Location|object $location,
+        public readonly Location|WorkspaceSymbolLocation $location,
         public readonly mixed $data,
         string $name,
         SymbolKind $kind,

@@ -12,7 +12,6 @@ class TextDocumentIdentifier
     use TextDocumentIdentifierMixin;
 
     /**
-     * @generated
      * @param non-empty-string $uri
      */
     public function __construct(string $uri)

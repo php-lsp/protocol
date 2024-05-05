@@ -14,7 +14,6 @@ final class SelectionRangeParams
     use PartialResultParamsMixin;
 
     /**
-     * @generated
      * @param list<Position> $positions
      * @param int<-2147483648, 2147483647>|string $workDoneToken
      * @param int<-2147483648, 2147483647>|string $partialResultToken

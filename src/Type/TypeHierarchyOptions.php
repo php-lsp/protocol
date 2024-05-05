@@ -12,10 +12,6 @@ class TypeHierarchyOptions
 {
     use TypeHierarchyOptionsMixin;
 
-    /**
-     * @generated
-     * @since 3.17.0
-     */
     public function __construct(bool $workDoneProgress)
     {
         $this->workDoneProgress = $workDoneProgress;

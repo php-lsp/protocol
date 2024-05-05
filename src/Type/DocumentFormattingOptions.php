@@ -11,9 +11,6 @@ class DocumentFormattingOptions
 {
     use DocumentFormattingOptionsMixin;
 
-    /**
-     * @generated
-     */
     public function __construct(bool $workDoneProgress)
     {
         $this->workDoneProgress = $workDoneProgress;

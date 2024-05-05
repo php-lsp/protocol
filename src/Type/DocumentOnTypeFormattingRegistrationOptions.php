@@ -14,7 +14,6 @@ final class DocumentOnTypeFormattingRegistrationOptions
     use DocumentOnTypeFormattingOptionsMixin;
 
     /**
-     * @generated
      * @param list<object|NotebookCellTextDocumentFilter>|null $documentSelector
      * @param list<string> $moreTriggerCharacter
      */

@@ -12,7 +12,6 @@ final class InitializeParams
     use WorkspaceFoldersInitializeParamsMixin;
 
     /**
-     * @generated
      * @param int<-2147483648, 2147483647>|null $processId
      * @param non-empty-string|null $rootUri
      * @param int<-2147483648, 2147483647>|string $workDoneToken
@@ -20,7 +19,7 @@ final class InitializeParams
      */
     final public function __construct(
         int|null $processId,
-        object $clientInfo,
+        _InitializeParamsClientInfo $clientInfo,
         string $locale,
         string|null $rootPath,
         string|null $rootUri,

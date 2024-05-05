@@ -12,7 +12,6 @@ final class RenameFile
     use ResourceOperationMixin;
 
     /**
-     * @generated
      * @param non-empty-string $oldUri
      * @param non-empty-string $newUri
      */
