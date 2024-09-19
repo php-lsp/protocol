@@ -1,0 +1,31 @@
+<?php
+
+namespace Lsp\Protocol\Type;
+
+/**
+ * Inline completion options used during static or dynamic registration.
+ *
+ * @generated
+ * @since 3.18.0
+ * @internal Describes the upcoming version of the Language Server Protocol and is under development
+ */
+final class InlineCompletionRegistrationOptions
+{
+    use StaticRegistrationOptionsMixin;
+
+    use InlineCompletionOptionsMixin;
+
+    use TextDocumentRegistrationOptionsMixin;
+
+    /**
+     * @param list<object|NotebookCellTextDocumentFilter>|null $documentSelector
+     */
+    final public function __construct(array|null $documentSelector, bool|null $workDoneProgress = null, string|null $id = null)
+    {
+            $this->workDoneProgress = $workDoneProgress;
+    
+            $this->documentSelector = $documentSelector;
+    
+            $this->id = $id;
+    }
+}
