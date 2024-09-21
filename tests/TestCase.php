@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Lsp\Protocol\Generator\Tests;
+namespace Lsp\Protocol\Tests;
 
 use PHPUnit\Framework\Attributes\Group;
 use PHPUnit\Framework\TestCase as BaseTestCase;
 
-#[Group('php-lsp/protocol-generator')]
+#[Group('php-lsp/protocol')]
 abstract class TestCase extends BaseTestCase {}
