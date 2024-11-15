@@ -7,7 +7,7 @@ namespace Lsp\Protocol\Type;
 /**
  * Show message request client capabilities.
  *
- * @generated 2024-09-21
+ * @generated 2024-11-15
  */
 final class ShowMessageRequestClientCapabilities
 {
@@ -15,6 +15,6 @@ final class ShowMessageRequestClientCapabilities
         /**
          * Capabilities specific to the `MessageActionItem` type.
          */
-        public readonly ?ShowMessageRequestClientCapabilitiesMessageActionItem $messageActionItem = null,
+        public readonly ?ClientShowMessageActionItemOptions $messageActionItem = null,
     ) {}
 }

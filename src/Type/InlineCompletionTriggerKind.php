@@ -13,7 +13,7 @@ namespace Lsp\Protocol\Type;
  * @internal This is a proposed type, which means that the implementation of
  *           this type is not final. Please use this type at your own risk.
  *
- * @generated 2024-09-21
+ * @generated 2024-11-15
  */
 enum InlineCompletionTriggerKind: int
 {
@@ -22,11 +22,11 @@ enum InlineCompletionTriggerKind: int
      *
      * @var int<0, 2147483647>
      */
-    case Invoked = 0;
+    case Invoked = 1;
     /**
      * Completion was triggered automatically while editing.
      *
      * @var int<0, 2147483647>
      */
-    case Automatic = 1;
+    case Automatic = 2;
 }

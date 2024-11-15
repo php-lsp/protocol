@@ -7,7 +7,7 @@ namespace Lsp\Protocol\Type;
 /**
  * An item to transfer a text document from the client to the server.
  *
- * @generated 2024-09-21
+ * @generated 2024-11-15
  */
 final class TextDocumentItem
 {
@@ -21,7 +21,7 @@ final class TextDocumentItem
         /**
          * The text document's language identifier.
          */
-        public readonly string $languageId,
+        public readonly LanguageKind $languageId,
         /**
          * The version number of this document (it will increase after each
          * change, including undo/redo).

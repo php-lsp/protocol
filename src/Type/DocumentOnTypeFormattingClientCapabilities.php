@@ -7,7 +7,7 @@ namespace Lsp\Protocol\Type;
 /**
  * Client capabilities of a {@link DocumentOnTypeFormattingRequest}.
  *
- * @generated 2024-09-21
+ * @generated 2024-11-15
  */
 final class DocumentOnTypeFormattingClientCapabilities
 {

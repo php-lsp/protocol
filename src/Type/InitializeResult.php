@@ -7,7 +7,7 @@ namespace Lsp\Protocol\Type;
 /**
  * The result returned from an initialize request.
  *
- * @generated 2024-09-21
+ * @generated 2024-11-15
  */
 final class InitializeResult
 {
@@ -21,6 +21,6 @@ final class InitializeResult
          *
          * @since 3.15.0
          */
-        public readonly ?InitializeResultServerInfo $serverInfo = null,
+        public readonly ?ServerInfo $serverInfo = null,
     ) {}
 }

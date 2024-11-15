@@ -7,11 +7,18 @@ namespace Lsp\Protocol\Type;
 /**
  * The publish diagnostic client capabilities.
  *
- * @generated 2024-09-21
+ * @generated 2024-11-15
  */
 final class PublishDiagnosticsClientCapabilities
 {
     public function __construct(
+        /**
+         * Whether the client interprets the version property of the
+         * `textDocument/publishDiagnostics` notification's parameter.
+         *
+         * @since 3.15.0
+         */
+        public readonly ?bool $versionSupport = null,
         /**
          * Whether the clients accepts diagnostics with related information.
          */
@@ -23,14 +30,7 @@ final class PublishDiagnosticsClientCapabilities
          *
          * @since 3.15.0
          */
-        public readonly ?PublishDiagnosticsClientCapabilitiesTagSupport $tagSupport = null,
-        /**
-         * Whether the client interprets the version property of the
-         * `textDocument/publishDiagnostics` notification's parameter.
-         *
-         * @since 3.15.0
-         */
-        public readonly ?bool $versionSupport = null,
+        public readonly ?ClientDiagnosticsTagOptions $tagSupport = null,
         /**
          * Client supports a codeDescription property.
          *

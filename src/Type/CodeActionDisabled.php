@@ -5,7 +5,11 @@ declare(strict_types=1);
 namespace Lsp\Protocol\Type;
 
 /**
- * @generated 2024-09-21
+ * Captures why the code action is currently disabled.
+ *
+ * @since 3.18.0
+ *
+ * @generated 2024-11-15
  */
 final class CodeActionDisabled
 {

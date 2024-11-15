@@ -8,7 +8,7 @@ namespace Lsp\Protocol\Type;
  * Contains additional diagnostic information about the context in which a {@see
  * CodeActionProvider::$provideCodeActions code action} is run.
  *
- * @generated 2024-09-21
+ * @generated 2024-11-15
  */
 final class CodeActionContext
 {
@@ -20,10 +20,6 @@ final class CodeActionContext
          * presented to the user for the given range. There is no guarantee that
          * these accurately reflect the error state of the resource. The primary
          * parameter to compute code actions is the provided range.
-         *
-         * Note that the client should check the
-         * `textDocument.diagnostic.markupMessageSupport` server capability
-         * before sending diagnostics with markup messages to a server.
          *
          * @var list<Diagnostic>
          */

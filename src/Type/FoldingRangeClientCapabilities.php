@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Lsp\Protocol\Type;
 
 /**
- * @generated 2024-09-21
+ * @generated 2024-11-15
  */
 final class FoldingRangeClientCapabilities
 {
@@ -37,12 +37,12 @@ final class FoldingRangeClientCapabilities
          *
          * @since 3.17.0
          */
-        public readonly ?FoldingRangeClientCapabilitiesFoldingRangeKind $foldingRangeKind = null,
+        public readonly ?ClientFoldingRangeKindOptions $foldingRangeKind = null,
         /**
          * Specific options for the folding range.
          *
          * @since 3.17.0
          */
-        public readonly ?FoldingRangeClientCapabilitiesFoldingRange $foldingRange = null,
+        public readonly ?ClientFoldingRangeOptions $foldingRange = null,
     ) {}
 }

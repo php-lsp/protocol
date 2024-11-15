@@ -11,7 +11,7 @@ namespace Lsp\Protocol\Type;
  * So the creator of a TextDocumentEdit doesn't need to sort the array of edits
  * or do any kind of ordering. However the edits must be non overlapping.
  *
- * @generated 2024-09-21
+ * @generated 2024-11-15
  */
 final class TextDocumentEdit
 {
@@ -25,10 +25,13 @@ final class TextDocumentEdit
          *
          * client capability.
          *
-         * @since 3.16.0 - support for AnnotatedTextEdit. This is guarded using
-         *        a client capability.
          *
-         * @var list<TextEdit|AnnotatedTextEdit>
+         * client capability.
+         *
+         * @since 3.18.0 - support for SnippetTextEdit. This is guarded using a
+         *        client capability.
+         *
+         * @var list<TextEdit|AnnotatedTextEdit|SnippetTextEdit>
          */
         public readonly array $edits = [],
     ) {}

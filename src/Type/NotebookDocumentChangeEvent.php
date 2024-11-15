@@ -9,7 +9,7 @@ namespace Lsp\Protocol\Type;
  *
  * @since 3.17.0
  *
- * @generated 2024-09-21
+ * @generated 2024-11-15
  */
 final class NotebookDocumentChangeEvent
 {
@@ -25,6 +25,6 @@ final class NotebookDocumentChangeEvent
         /**
          * Changes to cells.
          */
-        public readonly ?NotebookDocumentChangeEventCells $cells = null,
+        public readonly ?NotebookDocumentCellChanges $cells = null,
     ) {}
 }

@@ -7,7 +7,7 @@ namespace Lsp\Protocol\Type;
 /**
  * Predefined error codes.
  *
- * @generated 2024-09-21
+ * @generated 2024-11-15
  */
 enum ErrorCodes: int
 {

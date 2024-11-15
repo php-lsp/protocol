@@ -9,7 +9,7 @@ namespace Lsp\Protocol\Type;
  *
  * @since 3.16.0
  *
- * @generated 2024-09-21
+ * @generated 2024-11-15
  */
 final class GeneralClientCapabilities
 {
@@ -21,7 +21,7 @@ final class GeneralClientCapabilities
          *
          * @since 3.17.0
          */
-        public readonly ?GeneralClientCapabilitiesStaleRequestSupport $staleRequestSupport = null,
+        public readonly ?StaleRequestSupportOptions $staleRequestSupport = null,
         /**
          * Client capabilities specific to regular expressions.
          *

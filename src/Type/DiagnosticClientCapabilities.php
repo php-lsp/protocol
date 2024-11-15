@@ -9,7 +9,7 @@ namespace Lsp\Protocol\Type;
  *
  * @since 3.17.0
  *
- * @generated 2024-09-21
+ * @generated 2024-11-15
  */
 final class DiagnosticClientCapabilities
 {
@@ -27,14 +27,30 @@ final class DiagnosticClientCapabilities
          */
         public readonly ?bool $relatedDocumentSupport = null,
         /**
-         * Whether the client supports `MarkupContent` in diagnostic messages.
-         *
-         * @since 3.18.0
-         *
-         * @internal This is a proposed type, which means that the
-         *           implementation of this type is not final. Please use this type at
-         *           your own risk.
+         * Whether the clients accepts diagnostics with related information.
          */
-        public readonly ?bool $markupMessageSupport = null,
+        public readonly ?bool $relatedInformation = null,
+        /**
+         * Client supports the tag property to provide meta data about a
+         * diagnostic.
+         * Clients supporting tags have to handle unknown tags gracefully.
+         *
+         * @since 3.15.0
+         */
+        public readonly ?ClientDiagnosticsTagOptions $tagSupport = null,
+        /**
+         * Client supports a codeDescription property.
+         *
+         * @since 3.16.0
+         */
+        public readonly ?bool $codeDescriptionSupport = null,
+        /**
+         * Whether code action supports the `data` property which is preserved
+         * between a `textDocument/publishDiagnostics` and
+         * `textDocument/codeAction` request.
+         *
+         * @since 3.16.0
+         */
+        public readonly ?bool $dataSupport = null,
     ) {}
 }

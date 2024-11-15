@@ -9,7 +9,7 @@ namespace Lsp\Protocol\Type;
  * than zero and smaller than the number of lines in the document. Clients are
  * free to ignore invalid ranges.
  *
- * @generated 2024-09-21
+ * @generated 2024-11-15
  */
 final class FoldingRange
 {
@@ -47,7 +47,7 @@ final class FoldingRange
          */
         public readonly ?int $endCharacter = null,
         /**
-         * Describes the kind of the folding range such as `comment' or
+         * Describes the kind of the folding range such as 'comment' or
          * 'region'. The kind is used to categorize folding ranges and used by
          * commands like 'Fold all comments'.
          * See {@link FoldingRangeKind} for an enumeration of standardized

@@ -7,7 +7,7 @@ namespace Lsp\Protocol\Type;
 /**
  * The result of a hover request.
  *
- * @generated 2024-09-21
+ * @generated 2024-11-15
  */
 final class Hover
 {
@@ -15,9 +15,9 @@ final class Hover
         /**
          * The hover's content.
          *
-         * @var MarkupContent|string|HoverContents|list<string|HoverContents>
+         * @var MarkupContent|string|MarkedStringWithLanguage|list<(string|MarkedStringWithLanguage)>
          */
-        public readonly MarkupContent|string|HoverContents|array $contents = [],
+        public readonly MarkupContent|string|MarkedStringWithLanguage|array $contents = [],
         /**
          * An optional range inside the text document that is used to visualize
          * the hover, e.g. by changing the background color.

@@ -7,7 +7,7 @@ namespace Lsp\Protocol\Type;
 /**
  * Client Capabilities for a {@link SignatureHelpRequest}.
  *
- * @generated 2024-09-21
+ * @generated 2024-11-15
  */
 final class SignatureHelpClientCapabilities
 {
@@ -20,7 +20,7 @@ final class SignatureHelpClientCapabilities
          * The client supports the following `SignatureInformation` specific
          * properties.
          */
-        public readonly ?SignatureHelpClientCapabilitiesSignatureInformation $signatureInformation = null,
+        public readonly ?ClientSignatureInformationOptions $signatureInformation = null,
         /**
          * The client supports to send additional context information for a
          * `textDocument/signatureHelp` request. A client that opts into

@@ -10,7 +10,7 @@ namespace Lsp\Protocol\Type;
  *
  * @since 3.17.0
  *
- * @generated 2024-09-21
+ * @generated 2024-11-15
  */
 final class NotebookCellTextDocumentFilter
 {
@@ -20,7 +20,7 @@ final class NotebookCellTextDocumentFilter
          * cell. If a string value is provided it matches against the notebook
          * type. '*' matches every notebook.
          */
-        public readonly string|NotebookCellTextDocumentFilterNotebook $notebook,
+        public readonly string|NotebookDocumentFilterNotebookType|NotebookDocumentFilterScheme|NotebookDocumentFilterPattern $notebook,
         /**
          * A language id like `python`.
          *

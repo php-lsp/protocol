@@ -7,7 +7,7 @@ namespace Lsp\Protocol\Type;
 /**
  * The client capabilities  of a {@link CodeLensRequest}.
  *
- * @generated 2024-09-21
+ * @generated 2024-11-15
  */
 final class CodeLensClientCapabilities
 {
@@ -16,5 +16,12 @@ final class CodeLensClientCapabilities
          * Whether code lens supports dynamic registration.
          */
         public readonly ?bool $dynamicRegistration = null,
+        /**
+         * Whether the client supports resolving additional code lens properties
+         * via a separate `codeLens/resolve` request.
+         *
+         * @since 3.18.0
+         */
+        public readonly ?ClientCodeLensResolveOptions $resolveSupport = null,
     ) {}
 }

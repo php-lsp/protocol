@@ -7,7 +7,7 @@ namespace Lsp\Protocol\Type;
 /**
  * The change text document notification's parameters.
  *
- * @generated 2024-09-21
+ * @generated 2024-11-15
  */
 final class DidChangeTextDocumentParams
 {
@@ -33,7 +33,7 @@ final class DidChangeTextDocumentParams
          * notification in the order
          *   you receive them.
          *
-         * @var list<DidChangeTextDocumentParamsContentChanges>
+         * @var list<TextDocumentContentChangePartial|TextDocumentContentChangeWholeDocument>
          */
         public readonly array $contentChanges = [],
     ) {}
